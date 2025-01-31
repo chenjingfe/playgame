@@ -1,3 +1,5 @@
+package Game;
+
 import java.util.*;
 
 public class game {
@@ -26,14 +28,24 @@ public class game {
         }
 
     }
-    //{1=方块3, 2=方块4, 3=方块5, 4=方块6, 5=方块7, 6=方块8, 7=方块9, 8=方块10, 9=方块J, 10=方块Q, 11=方块K, 12=方块A, 13=方块2, 14=梅花3, 15=梅花4, 16=梅花5, 17=梅花6
-    // 18=梅花7, 19=梅花8, 20=梅花9, 21=梅花10, 22=梅花J, 23=梅花Q, 24=梅花K, 25=梅花A, 26=梅花2, 27=黑桃3, 28=黑桃4, 29=黑桃5, 30=黑桃6, 31=黑桃7, 32=黑桃8, 33=黑桃9
-    // 34=黑桃10, 35=黑桃J, 36=黑桃Q, 37=黑桃K,38=黑桃A, 39=黑桃2, 40=红桃3, 41=红桃4, 42=红桃5, 43=红桃6, 44=红桃7, 45=红桃8, 46=红桃9, 47=红桃10, 48=红桃J, 49=红桃Q
-    // 50=红桃K, 51=红桃A, 52=红桃2, 53=小王, 54=大王}
+//    1方块3 2梅花3 3黑桃3 4红桃3 5方块4 6梅花4 7黑桃4 8红桃4 9方块5 10梅花5
+//11黑桃5 12红桃5 13方块6 14梅花6 15黑桃6 16红桃6 17方块7 18梅花7 19黑桃7 20红桃7
+//21方块8 22梅花8 23黑桃8 24红桃8 25方块9 26梅花9 27黑桃9 28红桃9 29方块10 30梅花10
+//31黑桃10 32红桃10 33方块J 34梅花J 35黑桃J 36红桃J 37方块Q 38梅花Q 39黑桃Q 40红桃Q
+//41方块K 42梅花K 43黑桃K 44红桃K 45方块A 46梅花A 47黑桃A 48红桃A 49方块2 50梅花2
+//51黑桃2 52红桃2 53小王 54大王
 
 
+    public  void test (){
+        for (Integer i : list) {
+            System.out.print(i+hap.get(i)+" ");
+            if (i%10==0){
+                System.out.println();
+            }
+        }
+    }
     public game (){
-        ArrayList<Object> dipai= new ArrayList<>();
+       /* ArrayList<Object> dipai= new ArrayList<>();
         ArrayList<Object> P1= new ArrayList<>();
         ArrayList<Object> P2= new ArrayList<>();
         ArrayList<Object> P3= new ArrayList <>();
@@ -61,7 +73,7 @@ public class game {
         lookplay("底牌",dipai);
         lookplay("农民",P1);
         lookplay("农民",P2);
-        lookplay("地主",P3);
+        lookplay("地主",P3);*/
 
 
     }
