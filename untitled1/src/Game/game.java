@@ -35,17 +35,8 @@ public class game {
 //41方块K 42梅花K 43黑桃K 44红桃K 45方块A 46梅花A 47黑桃A 48红桃A 49方块2 50梅花2
 //51黑桃2 52红桃2 53小王 54大王
 
-
-    public  void test (){
-        for (Integer i : list) {
-            System.out.print(i+hap.get(i)+" ");
-            if (i%10==0){
-                System.out.println();
-            }
-        }
-    }
     public game (){
-       /* ArrayList<Object> dipai= new ArrayList<>();
+        ArrayList<Object> dipai= new ArrayList<>();
         ArrayList<Object> P1= new ArrayList<>();
         ArrayList<Object> P2= new ArrayList<>();
         ArrayList<Object> P3= new ArrayList <>();
@@ -71,9 +62,6 @@ public class game {
         sortplay(P3);
 
         lookplay("底牌",dipai);
-        lookplay("农民",P1);
-        lookplay("农民",P2);
-        lookplay("地主",P3);*/
 
 
     }
